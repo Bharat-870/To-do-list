@@ -1,0 +1,94 @@
+.tasker {
+        max-width: 400px;
+        margin: 0 auto;
+       /* background: rgb(247, 249, 252);    */
+}
+
+.tasker .error {
+		background: rgba(245, 91, 96, 0.7);
+		color: #fff;
+		padding: 10px;
+		margin-bottom: 10px;
+		border-radius: 5px;
+		text-align: left;
+        font-size: 20px;
+}
+
+.tasker-header {
+        display: inline-flex;
+        width: 100%;
+}
+
+.tasker-header input {
+        color: rgb(15, 15, 15);
+        box-sizing: border-box;
+        font-size: 15px;
+        padding: 10px;
+        flex-grow: 2;
+}
+
+.tasker-header button {
+        color: #fff;
+        box-sizing: border-box;
+        font-size: 15px;
+        padding: 10px;
+        background: #1dd2af;
+        flex-grow: 0.2;
+}
+
+ul {
+        margin: 0;
+        padding: 0;
+        border: none;
+        outline: none;
+        background: transparent;
+        background: #fff;
+}
+
+li {
+		margin-top: 10px;
+	    padding: 0;
+	    border: none;
+	    outline: none;
+	    background: transparent;
+		font: 18px/16px Helvetica, Arial, Sans-serif;
+}
+
+.tasker-body .task {
+        display: block;
+        position: relative;
+        padding: 14px 40px 14px 14px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.tasker-body input {
+        margin-right: 10px;
+}
+
+.tasker-body button {
+        transition: all 0.2s ease;
+        -webkit-transition: all 0.2s ease;
+        color: #cdcdcd;
+        margin: 14px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        opacity: 0;
+}
+
+.task button:hover {
+        color: #ed1c24;
+}
+
+.task:hover > button {
+        opacity: 1;
+}
+
+.task .completed {
+    color: #cdcdcd;
+    text-decoration: line-through;
+}
+
+.task:last-child {
+    border-bottom: none;
+}
