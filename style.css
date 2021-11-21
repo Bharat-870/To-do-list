@@ -1,22 +1,34 @@
 .tasker {
         max-width: 400px;
         margin: 0 auto;
-       /* background: rgb(247, 249, 252);    */
+        /*background: rgb(147, 152, 158);    */
+}
+
+#heading{
+        padding: 5px;
+        font-size: 35px;
+        text-align: center;
+        background: rgba(39, 46, 139, 0.7);
+        color: #fff;
+        border-radius: 5px;
+
+
 }
 
 .tasker .error {
-		background: rgba(245, 91, 96, 0.7);
-		color: #fff;
-		padding: 10px;
-		margin-bottom: 10px;
-		border-radius: 5px;
-		text-align: left;
-        font-size: 20px;
+	background: rgba(81, 190, 241, 0.7);
+	color: rgb(5, 5, 5);
+	padding: 10px;
+	margin-bottom: 5px;
+	border-radius: 10px;
+	text-align: left;
+        font-size: 22px;
 }
 
 .tasker-header {
         display: inline-flex;
         width: 100%;
+        margin-bottom: 15px;
 }
 
 .tasker-header input {
@@ -25,6 +37,8 @@
         font-size: 15px;
         padding: 10px;
         flex-grow: 2;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
 }
 
 .tasker-header button {
@@ -32,8 +46,10 @@
         box-sizing: border-box;
         font-size: 15px;
         padding: 10px;
-        background: #1dd2af;
+        background: #63d8c1;
         flex-grow: 0.2;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
 }
 
 ul {
@@ -46,12 +62,12 @@ ul {
 }
 
 li {
-		margin-top: 10px;
-	    padding: 0;
-	    border: none;
-	    outline: none;
-	    background: transparent;
-		font: 18px/16px Helvetica, Arial, Sans-serif;
+	margin-top: 10px;
+	padding: 0;
+	border: none;
+	outline: none;
+	background: transparent;
+	font: 18px/16px Helvetica, Arial, Sans-serif;
 }
 
 .tasker-body .task {
@@ -85,10 +101,10 @@ li {
 }
 
 .task .completed {
-    color: #cdcdcd;
-    text-decoration: line-through;
+        color: #cdcdcd;
+        text-decoration: line-through;
 }
 
 .task:last-child {
-    border-bottom: none;
+        border-bottom: none;
 }
