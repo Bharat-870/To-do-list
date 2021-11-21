@@ -73,7 +73,7 @@
 		},
 		addTask: function() {
 			var value = this.taskInput.value;
-			this.errorMessage.style.display = "none";
+			//this.errorMessage.style.display = "none";
 
 			if (value === "") {
 				this.error();
